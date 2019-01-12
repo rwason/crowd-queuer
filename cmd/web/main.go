@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"mux"
 	"net/http"
 	"time"
+
+	"github.com/gorilla/mux"
 )
 
 func health(w http.ResponseWriter, r *http.Request) {
